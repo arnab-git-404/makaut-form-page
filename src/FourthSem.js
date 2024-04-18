@@ -3,7 +3,7 @@ import React from "react";
 const FourthSem = () => {
   return (
     <div>
-      <iframe
+      <iframe tilte="4th"
         src="https://docs.google.com/forms/d/e/1FAIpQLSe9GaTOtvCaJfpol8cCUwQaCjzPXpkho6Hzd5hlWAJufuTK1w/viewform?embedded=true"
         className=" md:w-[500px] lg:w-[800px] md:h-[750px]"
         height="500"
