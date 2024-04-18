@@ -36,72 +36,73 @@ function App() {
   };
 
   return (
-    <div className=" flex flex-col items-center">
+    <div className=" flex flex-col items-center py-4 gap-4">
       <h1 className="font-bold underline lg:text-4xl md:2xl">
         Welcome To Makaut Diary Contribution Site
       </h1>
 
       <button
-        className="lg:text-4xl md:2xl"
+        className="lg:text-4xl md:2xl outline hover:bg-black  hover:text-white rounded-md"
         onClick={() => {
           setSelectedSemester(false);
         }}
-      >
+        >
         Clear The Screen
       </button>
 
-      <div className=" w-8/12 flex flex-row overflow-y-auto gap-4 py-2">
+      <div className=" w-9/12 h-20 flex flex-row overflow-y-auto gap-4 py-2  items-center   ">
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("1st")}
         >
-          1st Semester
+          <span className="pr-1 ">1st</span>Semester
+          
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("2nd")}
         >
-          2nd Semester
+          <span className="pr-1 ">2nd</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("3rd")}
         >
-          3rd Semester
+          <span className="pr-1 ">3rd</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("4th")}
         >
-          4th Semester
+         <span className="pr-1 ">4th</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("5th")}
         >
-          5th Semester
+         <span className="pr-1 ">5th</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("6th")}
         >
-          6th Semester
+         <span className="pr-1 ">6th</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("7th")}
         >
-          7th Semester
+          <span className="pr-1 ">7th</span>Semester
         </button>
         <button
-          className="bg-blue-600 text-white h-8 w-60"
+          className="bg-blue-600 text-white h-10 w-60 p-2"
           onClick={() => setSelectedSemester("8th")}
         >
-          8th Semester
+         <span className="pr-1 ">8th</span>Semester
         </button>
       </div>
 
-      <div class=" max-w-screen-md mx-auto" >{renderContent()}</div>
+      <div class=" mx-auto w-auto" >{ renderContent() }</div>
     </div>
   );
 }

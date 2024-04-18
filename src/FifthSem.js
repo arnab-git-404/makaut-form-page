@@ -3,10 +3,10 @@ import React from "react";
 const FifthSem = () => {
   return (
     <div>
-      <iframe title="5th Semester Form "
+      <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLScnwJblVNlO5nWe3xgAoBK8TnrsNQmyne78rPw1XySSPbfgjw/viewform?embedded=true"
-        width="700"
-        height="520"
+        className=" md:w-[500px] lg:w-[800px] md:h-[750px]"
+        height="500"
         frameborder="0"
         marginheight="0"
         marginwidth="0"
