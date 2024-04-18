@@ -3,7 +3,7 @@ import React from "react";
 const EighthSem = () => {
   return (
     <div>
-      <iframe
+      <iframe title="8th Semester Form"
         src="https://docs.google.com/forms/d/e/1FAIpQLSfPLitqHFDl-dYWamXHdXy5vUI42wmE18D2qx4cWwlBGQBYQQ/viewform?embedded=true"
         width="640"
         height="987"
