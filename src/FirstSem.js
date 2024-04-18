@@ -3,7 +3,7 @@ import React from "react";
 const FirstSem = () => {
   return (
     <section>
-  <iframe tilte="1st" 
+  <iframe tilte="1st  Semester Form" 
   src="https://docs.google.com/forms/d/e/1FAIpQLScfNGfEAcuITMcoBwYOBKPsCaGr_1s8aRu9Q7FTV4K3vNCKDw/viewform?embedded=true" 
   className=" md:w-[500px] lg:w-[800px] md:h-[750px]"
   height="500" 
