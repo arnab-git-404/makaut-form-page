@@ -36,7 +36,7 @@ function App() {
   };
 
   return (
-    <div className=" flex flex-col items-center py-4 gap-4">
+    <div className=" flex flex-col items-center py-2 gap-4">
       <h1 className="font-bold underline lg:text-4xl md:2xl">
         Welcome To Makaut Diary Contribution Site
       </h1>
